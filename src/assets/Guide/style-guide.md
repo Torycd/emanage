@@ -13,15 +13,55 @@ The designs were created to the following widths:
 
 ### Primary
 
-Bright Red: hsl(12, 88%, 59%)
-Dark Blue: hsl(228, 39%, 23%)
+✅ Primary Colors
+Bright Red
 
-### Neutral
+🎯 hsl(12, 88%, 59%)
 
-Dark Grayish Blue: hsl(227, 12%, 61%)
-Very Dark Blue: hsl(233, 12%, 13%)
-Very Pale Red: hsl(13, 100%, 96%)
-Very Light Gray: hsl(0, 0%, 98%)
+🔷 #f25f3a
+
+🏷️ Closest Tailwind: bg-orange-500 or text-orange-500
+
+Dark Blue
+
+🎯 hsl(228, 39%, 23%)
+
+🔷 #242d52
+
+🏷️ Closest Tailwind: bg-indigo-900 or text-indigo-900
+
+🔘 Neutral Colors
+Dark Grayish Blue
+
+🎯 hsl(227, 12%, 61%)
+
+🔷 #9095a7
+
+🏷️ Closest Tailwind: text-slate-400 or bg-slate-400
+
+Very Dark Blue
+
+🎯 hsl(233, 12%, 13%)
+
+🔷 #1d1e25
+
+🏷️ Closest Tailwind: bg-gray-900 or text-gray-900
+
+Very Pale Red
+
+🎯 hsl(13, 100%, 96%)
+
+🔷 #fff0ec
+
+🏷️ Closest Tailwind: bg-orange-100 or bg-red-100
+
+Very Light Gray
+
+🎯 hsl(0, 0%, 98%)
+
+🔷 #f2f2f2
+
+🏷️ Closest Tailwind: bg-gray-100 or bg-slate-100
 
 ## Typography
 
