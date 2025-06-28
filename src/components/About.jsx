@@ -17,7 +17,7 @@ const DUMMY = [
 ];
 const About = () => {
   return (
-    <div className="grid grid-cols-2 gap-[50px]">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-[50px]">
       <div>
         <h2 className="font-extrabold text-3xl sm:text-6xl text-center sm:text-left  mb-4 sm:mb-8">
           What&apos;s different about Manage?

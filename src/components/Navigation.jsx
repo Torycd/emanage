@@ -1,14 +1,9 @@
-import { useState } from "react";
 import Logo from "../assets/Guide/images/logo.svg";
 import Button from "./UI/Button";
 import hamburger from "../assets/Guide/images/icon-hamburger.svg";
 import close from "../assets/Guide/images/icon-close.svg";
 
-const Navigation = () => {
-  const [menu, setMenu] = useState(false);
-  function handleMenu() {
-    setMenu(!menu);
-  }
+const Navigation = ({ menu, handleMenu }) => {
   return (
     <div className="w-[100%]">
       <div className="flex flex-row justify-between font-semibold mb-[28px] sm:mb-[64px]">
@@ -24,7 +19,7 @@ const Navigation = () => {
           <li>Community</li>
         </ul>
         <Button classAdd="hidden sm:block">Get Started</Button>
-        <span className=" sm:hidden">
+        <span className=" sm:hidden transition-all delay-500">
           {!menu ? (
             <img src={hamburger} alt="open button" onClick={handleMenu} />
           ) : (
@@ -32,8 +27,23 @@ const Navigation = () => {
           )}
         </span>
       </div>
+
       <div>
-        <div></div>
+        <div
+          className={
+            menu
+              ? "sm:hidden fixed right-0 px-[32px] w-full"
+              : "fixed right-[-100%]"
+          }
+        >
+          <ul className="bg-white flex flex-col space-y-[20px] p-[40px] text-center rounded-sm">
+            <li>Pricing</li>
+            <li>Product</li>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Community</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
