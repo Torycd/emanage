@@ -18,7 +18,7 @@ const App = () => {
           : ""
       }`}
     >
-      <section className="py-[30px] sm:py-[38px] bg px-[32px] sm:px-[132px]">
+      <section>
         <Navigation menu={menu} handleMenu={handleMenu} setMenu={setMenu} />
         <Hero />
         <About />

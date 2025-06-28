@@ -3,7 +3,7 @@ import Button from "./UI/Button";
 
 const DUMMY = [
   {
-    title: "What’s different about Manage?",
+    title: "Track company-wide progress",
     body: "See how your day-to-day tasks fit into the wider vision. Go from  tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.",
   },
   {
@@ -18,7 +18,7 @@ const DUMMY = [
 const About = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-[50px]">
-      <div>
+      <div className="my-[30px] sm:my-[38px] mx-[32px] sm:mx-[132px]">
         <h2 className="font-extrabold text-3xl sm:text-6xl text-center sm:text-left  mb-4 sm:mb-8">
           What&apos;s different about Manage?
         </h2>

@@ -6,7 +6,7 @@ import close from "../assets/Guide/images/icon-close.svg";
 const Navigation = ({ menu, handleMenu }) => {
   return (
     <div className="w-[100%]">
-      <div className="flex flex-row justify-between font-semibold mb-[28px] sm:mb-[64px]">
+      <div className="flex flex-row justify-between font-semibold mb-[28px] sm:mb-[64px] my-[30px] sm:my-[38px] mx-[32px] sm:mx-[132px]">
         <div className="">
           <img src={Logo} alt="E-manage" />
         </div>
@@ -28,7 +28,7 @@ const Navigation = ({ menu, handleMenu }) => {
         </span>
       </div>
 
-      <div>
+      <div className="sm:mb-[64px] my-[30px] sm:my-[38px] mx-[32px] sm:mx-[132px]">
         <div
           className={
             menu

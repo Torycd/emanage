@@ -3,7 +3,7 @@ import ILL from "../assets/Guide/images/illustration-intro.svg";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-1 grid-re sm:grid-cols-2 gap-4 sm:gap-10 mb-20">
+    <div className="grid grid-cols-1 grid-re sm:grid-cols-2 gap-4 sm:gap-10 mb-20 my-[30px] sm:my-[38px] mx-[32px] sm:mx-[132px]">
       <div className="order-2 sm:order-1 m-auto flex flex-col items-center sm:items-start">
         <h2 className="font-extrabold text-3xl sm:text-6xl text-center sm:text-left tracking-wide sm:tracking-widest mb-4 sm:mb-8">
           Bring everyone together to build better products.
