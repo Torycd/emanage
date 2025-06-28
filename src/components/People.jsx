@@ -1,4 +1,3 @@
-// import React from 'react'
 import im1 from "../assets/Guide/images/avatar-anisha.png";
 import im2 from "../assets/Guide/images/avatar-ali.png";
 import im3 from "../assets/Guide/images/avatar-richard.png";
