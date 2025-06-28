@@ -23,7 +23,7 @@ const App = () => {
         <Hero />
         <About />
       </section>
-      {/* <People/> */}
+      <People />
     </div>
   );
 };
